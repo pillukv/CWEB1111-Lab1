@@ -1,0 +1,27 @@
+name,voted,captain,number,team,position,points_per_game,assists_per_game,rebounds_per_game,true_shooting_%,win_shares,box_plus_minus,value_over_replacement_player
+LeBron James,starter,lebron,23,CLE,Forward,26.6,8.7,7.9,0.623,7.9,8.7,5
+DeMarcus Cousins,starter,lebron,0,NOP,Center,25.2,5.4,12.9,0.583,4.7,5.2,3.1
+Anthony Davis,starter,lebron,23,NOP,Forward,26.4,2.6,10.6,0.627,8.1,4.7,2.7
+Kevin Durant,starter,lebron,35,GSW,Forward,25.6,5.6,6.9,0.626,6.3,5.3,2.8
+Kyrie Irving,starter,lebron,11,BOS,Guard,24.9,5,3.7,0.601,7.4,6,3.2
+LaMarcus Aldridge,reserve,lebron,12,SAS,Forward,22.4,1.9,8.5,0.556,6.9,2.2,1.8
+Bradley Beal,reserve,lebron,3,WAS,Guard,23.8,3.9,4.4,0.568,5,2.1,1.9
+Andre Drummond ,reserve,lebron,0,DET,Center,14.8,3.9,15.3,0.574,6.6,7.3,3.7
+Paul George,reserve,lebron,13,OKC,Forward,21.3,2.9,5.5,0.579,5.7,2.7,2.1
+Kevin Love,reserve,lebron,0,CLE,Forward,17.9,1.6,9.4,0.613,5.3,1.1,1.1
+Victor Oladipo,reserve,lebron,4,IND,Guard,23.9,4.1,5.2,0.595,5.4,4.3,2.6
+Kristaps Porzingis,reserve,lebron,6,NYK,Forward,23.1,1.3,6.6,0.539,3.5,-0.3,0.6
+John Wall,reserve,lebron,2,WAS,Guard,19.4,9.3,3.6,0.511,2.6,1.6,1.2
+Russell Westbrook,reserve,lebron,0,OKC,Guard,25.5,10.1,9.4,0.516,6.7,8.7,4.9
+Giannis Antetokounmkpo,starter,stephen,34,MIL,Forward,28.5,4.7,10.3,0.618,8.8,7.3,4
+Stephen Curry,starter,stephen,30,GSW,Guard,27.7,6.5,5.1,0.675,7.1,8.8,3.3
+DeMar DeRozan,starter,stephen,10,TOR,Guard,24.4,5.2,4.1,0.566,6.6,2.6,2
+Joel Embiid,starter,stephen,21,PHI,Center,23.8,3.3,11,0.584,3.8,2.6,1.4
+James Harden,starter,stephen,13,HOU,Guard,31.6,9.1,5,0.622,9.3,10.6,4.8
+Jimmy Butler,reserve,stephen,23,MIN,Guard,21.8,5,5.4,0.589,7.4,5,3.1
+Draymond Green,reserve,stephen,23,GSW,Forward,11.3,7.3,7.9,0.567,4.3,3.8,2.1
+Al Horford,reserve,stephen,42,BOS,Center,13.3,5.3,7.9,0.588,6,5.1,2.7
+Damian Lillard,reserve,stephen,0,POR,Guard,25.2,6.5,4.7,0.591,6.8,5.7,3.1
+Kyle Lowry,reserve,stephen,7,TOR,Guard,16.4,6.6,6,0.583,5.4,5,2.7
+Klay Thompson,reserve,stephen,11,GSW,Guard,20.3,2.6,4,0.606,3.8,-0.1,0.8
+Karl-Anthony Towns,reserve,stephen,32,MIN,Center,19.8,2.3,12.1,0.636,8.5,5,3.4

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.js"></script>  <!--Calling chart.js CDN -->
+        <title>2018 NBA All-Star Game: Data Visualized</title>
+        <meta charset="UTF-8">
+        <meta name="Description" content="Lab 1/2018 NBA All-Star Game Data Collection and Display">
+        <meta name="Keywords" content="Data, Information, Graphs, Charts, Visualization">
+        <meta name="Author" content="Luke Pilon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <style>
+            html, body, div, span, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            abbr, address, cite, code,
+            del, dfn, em, img, ins, kbd, q, samp,
+            small, strong, sub, sup, var,
+            b, i,
+            dl, dt, dd, ol, ul, li,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td,
+            article, aside, canvas, details, figcaption, figure, 
+            footer, header, hgroup, menu, nav, section, summary,
+            time, mark, audio, video {
+                margin:0;
+                padding:0;
+                border:0;
+                outline:0;
+                font-size:100%;
+                vertical-align:baseline;
+                background:transparent;
+            }
+            h1, h2, h3 {
+                font-style: Georgia, Helvetica, serif;
+            }
+            h1 {
+                font-size: 36px;
+            }
+            p {
+                line-height: 1.5;
+                font-family: 'Roboto', sans-serif;
+            }
+            header {
+                text-align: center;
+            }
+            #bannerimg {
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img id="bannerimg" src="http://cdn.nba.net/assets/allstar/2018/header/allStarHeader2018_2x.png" height="130px" width="auto">
+            <h1>2018 NBA All-Star Rosters: A Visual Comparison</h1>
+        </header>
+        <p style="text-align:center;">This chart plots each players scoring volume (Points Per Game) and scoring efficiency (True Shooting rate)</p>
+        <div style="position:relative; margin:auto;  width:90%; height:80vh; margin-top: 2em;">
+            <canvas id="chart1"></canvas>
+        </div>
+        <br><br><br><br><br><br>
+        <p style="width:90%; margin:auto; text-align:center;">Win Shares (WS), Box Plus Minus (BPM), and Value Over Replacement Player (VORP) are three statistics that attempt to quantify a player's contribution to a team beyond the basic statistics like Points and Rebounds that show up in a box score.  This chart shows each team's average for each statistic.</p>
+        <br>
+        <div style="position:relative; margin:auto; width:90%; height:80vh;">
+            <canvas id="chart2"></canvas>
+        </div>
+        <footer>
+
+        </footer>
+
+        <!-- JavaScript: Using chart.js to display data -->
+        <script src="js/playerObjects.js"></script><!-- Data File -->
+        <script src="js/main.js"></script><!-- Main decision-making logic -->
+
+    </body>     
+
+</html>
